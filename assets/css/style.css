@@ -36,14 +36,12 @@ header{
 }
 
 .button{
-    width: 72px;
-    height: 35px;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
-
+    font-size: 1.2rem;
     background-color: white;
     border: 1px solid white;
-    border-radius: 17px 17px 17px 17px;
+    border-radius: 31px 31px 31px 31px;
 }
 /* HEADER */
 
@@ -79,15 +77,61 @@ ul li a{
     background-size: cover;
 
 }
-
 .jumbotron .jumbo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
     max-width: 800px;
     
     /* COLOR DI DEBUG */
-    background-color: green;
+    /* background-color: green; */
+}
+.jumbotron .jumbo-content h1{
+    color: white;
+
+    font-size: 3.5rem;
+    margin-bottom: 60px;
 }
 
-/* Sezioni da eliminare/modificare */
+.jumbotron .jumbo-content p{
+    color: white;
+
+    font-size: 1.2rem;
+}
+.jumbo-content div.cta-box{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.cta-box .button.cta-white{
+    border: none;
+    text-align: center;
+    color: #23272A;
+    margin-right: 25px;
+    padding: 15px;
+}
+
+.cta-white::before{
+    content: "\1F817";
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.cta-box .button.cta-black{
+    text-align: center;
+    background-color: #23272A;
+    color: white;
+    border: none;
+
+    margin-right: 25px;
+    padding: 15px;
+}
+.cta-box .button.cta-black a{
+    color: white;
+}
+
 /* MAIN */
 section.bg-grey{
     background-color: #F6F6F6;
