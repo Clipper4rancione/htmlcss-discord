@@ -141,3 +141,10 @@ footer{
     min-height: 200px;
     border: 1px solid white;
 }
+.footer-bot{
+    display: flex;
+    justify-content: space-between;
+
+    /* DEBUG */
+    min-height: 200px;
+}
