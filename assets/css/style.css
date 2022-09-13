@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid black;
+    background-color: rgba(255, 0, 0, .5);
+}
+
+/* GENERALI */
+header{
+    display: flex;
+       
+    width: 100%;
+    height: 80px;
+
+    background-color: burlywood;
+}
+
+main .intro-container{
+    width: 100%;
+
+}
+
+
+/*    /   */
+/* HEADER */
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    /* Da modificare */
+    width: 90%;
+    margin: 0 auto;   
+    /*  */
+    background-color: lightblue;
+}
+
+
+ul{
+    display: flex;
+    
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
+}
+
+.button{
+    width: 70px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+/*     /      */
+
+/* MAIN */
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+    /* Da togliere */
+    height: 570px;
+    background-color: greenyellow;
+    /*  */
+}
+
+.jumbo-container{
+    /* da togliere */
+    width: 795px;
+    height: 390px;
+
+    background-color: green;
+    color: white;
+}
+
+/* Sezioni da eliminare/modificare */
+
+/* SEZIONE 1 */
+main .intro-container .section-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+    /* da togliere */
+    /* height: 740px; */
+    background-color: palevioletred;
+}
+
+.img-1{
+    border: 1px solid black;
+
+    width: 725px;
+    height: 430px;
+    background-color: aqua;
+}
+.intro-p{
+    border: 1px solid black;
+
+    width: 379px;
+    height: 526px;
+    background-color: aqua;
+}
+
+/* SEZIONE 2 */
+main .intro-container .section-2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+    /* da togliere */
+    /* height: 740px; */
+    background-color: yellow;
+}
+/*    /     */
+
+/* SEZIONE 3 */
+main .intro-container .section-3{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+    /* da togliere */
+    /* height: 740px; */
+    background-color: lightgrey;
+}
+
+/* SEZIONE 4 */
+main .intro-container .section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+
+    /* da togliere */
+    /* height: 740px; */
+    background-color: lightgoldenrodyellow;
+}
+.section-4 .intro-p{
+    width: 1100px;
+    height: 205px;
+}
+.download-call{
+    width: 630px;
+    height: 214px;
+
+    background-color: aqua;
+}
+/*      //      */
+
+/* main .intro-container .section-5{
+    width: 100%;
+
+
+    height: 100px;
+    background-color: lightgoldenrodyellow;
+} */
+
+/* FOOTER */
+footer{
+    /* display: flex;
+    justify-content: space-evenly; */
+    width: 100%;
+
+    /* da togliere */
+    /* height: 665px; */
+    background-color: #23272A;
+    color: white;
+}
+
+footer .info-1{
+    display: flex;
+    /* da eliminare */
+    width: 270px;
+    height: 200px;
+
+    background-color: azure;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer ul li a{
+    color:white
+}
+footer .info{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    border-bottom: 2px solid #7289DA;
+}
+
+footer .site-end{
+    display: flex;
+
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
