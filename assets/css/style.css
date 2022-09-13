@@ -10,35 +10,29 @@
 }
 
 /* GENERALI */
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 header{
     display: flex;
-       
+    align-items: center;
     width: 100%;
     height: 80px;
 
-    background-color: burlywood;
+    background-color: #3161E0;
 }
 
-main .intro-container{
-    width: 100%;
-
-}
-
-
-/*    /   */
-/* HEADER */
-.menu{
+header .container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    /* Da modificare */
-    width: 90%;
-    margin: 0 auto;   
-    /*  */
-    background-color: lightblue;
+    /* COLOR DI DEBUG */
+    background-color: red;
 }
-
 
 ul{
     display: flex;
@@ -59,119 +53,57 @@ ul li a{
     text-align: center;
     background-color: white;
 }
-/*     /      */
 
-/* MAIN */
+
 .jumbotron{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 10px;
-
-    /* Da togliere */
-    height: 570px;
+    height: 550px;
     background-color: greenyellow;
-    /*  */
+
 }
 
-.jumbo-container{
-    /* da togliere */
-    width: 795px;
-    height: 390px;
-
+.jumbotron .jumbo-content{
+    max-width: 800px;
+    
+    /* COLOR DI DEBUG */
     background-color: green;
-    color: white;
 }
 
 /* Sezioni da eliminare/modificare */
-
-/* SEZIONE 1 */
-main .intro-container .section-1{
+/* MAIN */
+section.bg-grey{
+    background-color: #F6F6F6;
+}
+section .container{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
 
-    /* da togliere */
-    /* height: 740px; */
-    background-color: palevioletred;
+    /* COLOR DI DEBUG */
+    min-height: 500px;
+    background-color: #F4F3F6;
 }
 
-.img-1{
-    border: 1px solid black;
+section .container .img{
+    width: 60%;
 
-    width: 725px;
-    height: 430px;
+    /* DEBUG */
+    min-height: 300px;
     background-color: aqua;
 }
-.intro-p{
-    border: 1px solid black;
+section .container .text{
+    width: 40%;
 
-    width: 379px;
-    height: 526px;
-    background-color: aqua;
+    /* DEBUG */
+    min-height: 500px;
+    background-color: aquamarine;
 }
 
-/* SEZIONE 2 */
-main .intro-container .section-2{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-
-    /* da togliere */
-    /* height: 740px; */
-    background-color: yellow;
-}
-/*    /     */
-
-/* SEZIONE 3 */
-main .intro-container .section-3{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-    width: 100%;
-    padding: 10px;
-
-    /* da togliere */
-    /* height: 740px; */
-    background-color: lightgrey;
-}
-
-/* SEZIONE 4 */
-main .intro-container .section-4{
-    display: flex;
+section.section-bot .container{
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    padding: 10px;
-
-    /* da togliere */
-    /* height: 740px; */
-    background-color: lightgoldenrodyellow;
 }
-.section-4 .intro-p{
-    width: 1100px;
-    height: 205px;
-}
-.download-call{
-    width: 630px;
-    height: 214px;
-
-    background-color: aqua;
-}
-/*      //      */
-
-/* main .intro-container .section-5{
-    width: 100%;
-
-
-    height: 100px;
-    background-color: lightgoldenrodyellow;
-} */
 
 /* FOOTER */
 footer{
@@ -181,41 +113,31 @@ footer{
 
     /* da togliere */
     /* height: 665px; */
-    background-color: #23272A;
+    background-color: #24272A;
     color: white;
 }
 
-footer .info-1{
-    display: flex;
-    /* da eliminare */
-    width: 270px;
-    height: 200px;
 
-    background-color: azure;
-}
-
-footer ul{
-    display: flex;
-    flex-direction: column;
-}
-footer ul li a{
-    color:white
-}
-footer .info{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content:space-evenly ;
-    align-items: center;
-    border-bottom: 2px solid #7289DA;
-}
-
-footer .site-end{
+.footer-top{
     display: flex;
 
-    width: 90%;
-    margin: 0 auto;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-around;
+    /* DEBUG */
+    min-height: 300px;
+    background-color: rgb(29, 189, 61);
+}
+
+.footer-top .col-social{
+    width: calc(100% / 3);
+
+    /* DEBUG */
+    min-height: 200px;
+    background-color: beige;
+} 
+
+.footer-top .col-menu{
+    width: calc(100% / 6);
+
+    /* DEBUG */
+    min-height: 200px;
+    border: 1px solid white;
 }
