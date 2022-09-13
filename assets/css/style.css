@@ -23,6 +23,7 @@ a{
     text-decoration: none;
 }
 
+
 /* .waves{
     display: block;
     height: 52px;
@@ -37,6 +38,10 @@ a{
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+header a:hover{
+    text-decoration: underline;
 }
 
 header{
