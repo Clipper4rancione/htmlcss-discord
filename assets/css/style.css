@@ -54,16 +54,16 @@ header .container{
     align-items: center;
 }
 
-ul{
+header ul{
     display: flex;
     
 }
-ul li{
+header ul li{
     list-style: none;
     margin: 35px;
     
 }
-ul li a{
+header ul li a{
     text-decoration: none;
     color: white;
 }
@@ -237,37 +237,95 @@ footer{
     justify-content: space-evenly; */
     width: 100%;
     background-color: #24272A;
-    color: white;
+
 }
 
 
 .footer-top{
     display: flex;
+    border-bottom: 1px solid #7289DA;
 
-    /* DEBUG */
-    min-height: 300px;
-    background-color: rgb(29, 189, 61);
 }
 
 .footer-top .col-social{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 15px;
+    
     width: calc(100% / 3);
 
-    /* DEBUG */
-    min-height: 200px;
-    background-color: beige;
+    
+} 
+.footer-top .col-social h3{
+    font-size: 2.3rem;
+    color: #7289DA;
+
+    
 } 
 
 .footer-top .col-menu{
+    display: flex;
+    justify-content: center;
     width: calc(100% / 6);
+    padding: 15px;
+    margin-top: 10px;
 
-    /* DEBUG */
-    min-height: 200px;
-    border: 1px solid white;
 }
+footer img.lang-flag{
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    padding: 0 8 0 0;
+}
+footer .lang-sect{
+    color: white;
+    margin: 15px 0 0 0;
+    
+}
+footer span.language::after{
+    content: "\142F";
+    color: white;
+    padding: 0 0 0 8px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+footer ul li:first-child{
+    color: #0428a1;
+}
+
+footer ul li{
+    line-height: 1.7rem;   
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .footer-bot{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
-    /* DEBUG */
-    min-height: 200px;
+    padding: 20px;
+    margin-top: 10px;
+
+    
+}
+div .button.cta-footer{
+    background-color:#7289DA;
+    border: none;
+    
+}
+div .button.cta-footer a{
+    color: white;
+    
+    
 }
