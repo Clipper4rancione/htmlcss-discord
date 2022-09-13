@@ -4,7 +4,6 @@
     box-sizing: border-box;
 
     /* outline: 2px solid red; */
-
 }
 
 /* UTILITY */
@@ -40,10 +39,6 @@ a{
     margin: 0 auto;
 }
 
-header a:hover{
-    text-decoration: underline;
-}
-
 header{
     display: flex;
     align-items: center;
@@ -69,21 +64,27 @@ header .container{
     align-items: center;
 }
 
+header a:hover{
+    text-decoration: underline;
+}
+
 header ul{
     display: flex;
     
 }
+
 header ul li{
     list-style: none;
     margin: 35px;
     
 }
+
 header ul li a{
     text-decoration: none;
     color: white;
 }
 
-
+/* JUMBOTRON */
 .jumbotron{
     display: flex;
     justify-content: center;
@@ -95,6 +96,7 @@ header ul li a{
     background-size: cover;
 
 }
+
 .jumbotron .jumbo-content{
     display: flex;
     flex-direction: column;
@@ -106,6 +108,7 @@ header ul li a{
     /* COLOR DI DEBUG */
     /* background-color: green; */
 }
+
 .jumbotron .jumbo-content h1{
     color: white;
 
@@ -118,6 +121,7 @@ header ul li a{
 
     font-size: 1.2rem;
 }
+
 .jumbo-content div.cta-box{
     display: flex;
     padding: 10px;
@@ -138,6 +142,7 @@ header ul li a{
     font-size: 1.2rem;
     
 }
+
 .cta-box .button.cta-black{
     text-align: center;
     background-color: #23272A;
@@ -147,15 +152,18 @@ header ul li a{
     margin-right: 25px;
     padding: 15px;
 }
+
 .cta-box .button.cta-black a{
     color: white;
 }
+
 
 /* MAIN */
 section.bg-grey{
     padding:20px;
     background-color: #F6F6F6;
 }
+
 section .container{
     display: flex;
     padding: 20px;
@@ -164,57 +172,48 @@ section .container{
 
 section .container .img{
     width: 61%;
-
-    /* DEBUG */
-    /* min-height: 300px;
-    background-color: aqua; */
 }
+
 section .container .text{
     padding: 32px;
     display: flex;
     flex-direction: column;
     text-align: left;
-
-
-
+    
     width: 39%;
-
-    /* DEBUG */
-    /* min-height: 500px;
-    background-color: aquamarine; */
 }
+
 section.section-bot .container{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-
 section .container .text h2{
     font-size: 3.2rem;
     text-align: left;
 }
+
 section .container .text p{
     padding-top: 15px;
     font-size: 1.2rem;
     text-align: left;
 }
 
-
 section.section-bot .container .box-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
-    
+    align-items: center; 
 }
+
 section.section-bot 
 .container 
 .box-text h2{
     margin-top: 100px;
     font-size: 3.2rem
 }
+
 section.section-bot 
 .container 
 .box-text p{
@@ -223,11 +222,13 @@ section.section-bot
     font-size: 1.2rem;
     text-align: center;
 }
+
 section.section-bot 
 .container
 h3{
     font-size: 1.6rem;
 }
+
 .section-bot
 .button.cta-bot{
     margin-top: 30px;
@@ -237,6 +238,7 @@ h3{
     background-color: #8EA1E1;
     color: white;
 }
+
 .section-bot
 .button.cta-bot::before{
     content: "\1F817";
@@ -255,7 +257,6 @@ footer{
 
 }
 
-
 .footer-top{
     display: flex;
     border-bottom: 1px solid #7289DA;
@@ -268,15 +269,12 @@ footer{
     margin: 10px;
     padding: 15px;
     
-    width: calc(100% / 3);
-
-    
+    width: calc(100% / 3);   
 } 
+
 .footer-top .col-social h3{
     font-size: 2.3rem;
     color: #7289DA;
-
-    
 } 
 
 .footer-top .col-menu{
@@ -287,6 +285,11 @@ footer{
     margin-top: 10px;
 
 }
+
+footer span.language a{
+    color: white;
+}
+
 footer img.lang-flag{
     display: inline-block;
     width: 25px;
@@ -298,10 +301,16 @@ footer .lang-sect{
     margin: 15px 0 0 0;
     
 }
+
 footer span.language::after{
     content: "\142F";
     color: white;
     padding: 0 0 0 8px;
+}
+
+i.fa-brands{
+    margin-top: 20px;
+    width: 40px;
 }
 
 footer ul{
@@ -323,6 +332,7 @@ footer ul li a{
     color: white;
 }
 
+/* FOOTER BOTTOM */
 
 .footer-bot{
     display: flex;
@@ -330,17 +340,15 @@ footer ul li a{
     align-items: center;
 
     padding: 20px;
-    margin-top: 10px;
-
-    
+    margin-top: 10px;  
 }
+
 div .button.cta-footer{
     background-color:#7289DA;
     border: none;
-    
 }
+
 div .button.cta-footer a{
     color: white;
-    
     
 }
