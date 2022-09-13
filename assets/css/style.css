@@ -94,7 +94,7 @@ ul li a{
 .jumbotron .jumbo-content h1{
     color: white;
 
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     margin-bottom: 60px;
 }
 
@@ -121,6 +121,7 @@ ul li a{
     content: "\1F817";
     margin-right: 10px;
     font-size: 1.2rem;
+    
 }
 .cta-box .button.cta-black{
     text-align: center;
@@ -147,7 +148,7 @@ section .container{
 }
 
 section .container .img{
-    width: 60%;
+    width: 61%;
 
     /* DEBUG */
     /* min-height: 300px;
@@ -161,20 +162,11 @@ section .container .text{
 
 
 
-    width: 40%;
+    width: 39%;
 
     /* DEBUG */
     /* min-height: 500px;
     background-color: aquamarine; */
-}
-section .container .text h2{
-    font-size: 2.5rem;
-    text-align: left;
-}
-section .container .text p{
-    padding-top: 15px;
-    font-size: 1.2rem;
-    text-align: left;
 }
 section.section-bot .container{
     flex-direction: column;
@@ -182,14 +174,68 @@ section.section-bot .container{
     align-items: center;
 }
 
+
+section .container .text h2{
+    font-size: 3.2rem;
+    text-align: left;
+}
+section .container .text p{
+    padding-top: 15px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+section.section-bot .container .box-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+section.section-bot 
+.container 
+.box-text h2{
+    margin-top: 100px;
+    font-size: 3.2rem
+}
+section.section-bot 
+.container 
+.box-text p{
+
+    margin-top: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+section.section-bot 
+.container
+h3{
+    font-size: 1.6rem;
+}
+.section-bot
+.button.cta-bot{
+    margin-top: 30px;
+    padding: 10px;
+    border: none;
+
+    background-color: #8EA1E1;
+    color: white;
+}
+.section-bot
+.button.cta-bot::before{
+    content: "\1F817";
+    margin-right: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
 /* FOOTER */
 footer{
     /* display: flex;
     justify-content: space-evenly; */
     width: 100%;
-
-    /* da togliere */
-    /* height: 665px; */
     background-color: #24272A;
     color: white;
 }
