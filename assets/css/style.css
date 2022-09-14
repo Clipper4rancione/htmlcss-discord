@@ -27,16 +27,14 @@ a{
 }
 
 
-/* .waves{
+.waves svg{
+    color: #f6f6f6;
     display: block;
-    height: 52px;
-    background-image: url(/assets/img/wave.svg);
-    background-repeat: repeat-x;
-    background-size: contain;
-    background-position: center;
-    
-} */
-
+}
+.waves.down{
+    transform: rotate(180deg);
+    display: block;
+}
 .container{
     width: 90%;
     max-width: 1200px;
